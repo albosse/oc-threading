@@ -12,7 +12,7 @@ def my_func(name):
         sec = np.random.randint(1, 4)
 
         logging.info("Sleeping {sec} sec from thread {name}.".format(sec=sec, name=name))
-        time.sleep(3)
+        time.sleep(sec)
         logging.info("Finished sleeping from thread {name}.".format(name=name))
 
 
